@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS USERS
+    (
+        USER_ID integer primary key,
+        USERNAME TEXT(20) NOT NULL,
+        PASSWORD TEXT(20) NOT NULL,
+        REGISTERED_ON TEXT(20)
+    );
